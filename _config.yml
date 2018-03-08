@@ -78,4 +78,6 @@ theme: preview
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+    type: git
+    repo: git@github.com:yourcaptain/yesdata.net.git
+    branch: gh-pages
