@@ -6,7 +6,7 @@
 favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "雨帆, 且听书吟"
+keywords: "SSO,OA,ESB,RPC,JAVA"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "雨帆, 且听书吟"
 rss:
 
 # Specify the date when the site was setup
-since: 2011
+since: 2018
 
 # icon between year and author @Footer
 authoricon: heart
