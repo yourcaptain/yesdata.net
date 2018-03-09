@@ -81,4 +81,4 @@ deploy:
     type: git
     repo: https://git.coding.net/yourcaptain/yesdata.net.git
     branch: master
-    message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
+    message: Site updated {{ now('YYYY-MM-DD HH:mm:ss') }}
