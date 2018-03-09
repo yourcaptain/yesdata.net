@@ -26,6 +26,12 @@ before_script:
   - git config --global user.name ${GH_USER_NAME}
   - git config --global user.email ${GH_USER_EMAIL}
 
+deploy:
+    type: git
+    repo: https://${GH_USER_EMAIL}:${GH_USER_PWD}@git.coding.net/yourcaptain/yesdata.net.git
+    branch: master
+    message: Site updated {{ now('YYYY-MM-DD HH:mm:ss') }}
+
 script:
 #  - hexo algolia --chunk-size=5000 # The HEXO_ALGOLIA_INDEXING_KEY should be encrypted
   - hexo generate
