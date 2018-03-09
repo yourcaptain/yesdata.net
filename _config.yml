@@ -79,5 +79,6 @@ theme: preview
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type: git
-    repo: git@github.com:yourcaptain/yesdata.net.git
-    branch: gh-pages
+    repo: https://git.coding.net/yourcaptain/yesdata.net.git
+    branch: master
+    message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
