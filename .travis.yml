@@ -29,7 +29,7 @@ before_script:
 script:
 #  - hexo algolia --chunk-size=5000 # The HEXO_ALGOLIA_INDEXING_KEY should be encrypted
   - hexo generate
-#  - hexo deploy
+  - hexo deploy
 
 #deploy:
 #    type: git
