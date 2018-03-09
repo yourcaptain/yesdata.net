@@ -37,7 +37,7 @@ after_success:
 - git add --all .
 - git commit -m "Travis CI Auto Builder"
 # 这里的 REPO_TOKEN 即之前在 travis 项目的环境变量里添加的
-- git push --quiet --force https://${GH_USER_EMAIL}:${GH_USER_PWD}@git.coding.net/yourcaptain/yesdata.net.git master
+- git push --force https://${GH_USER_NAME}:${GH_USER_PWD}@git.coding.net/yourcaptain/yesdata.net.git master
 #deploy:
 #    type: git
 #    repo: https://${GH_USER_EMAIL}:${GH_USER_PWD}@git.coding.net/yourcaptain/yesdata.net.git
