@@ -141,10 +141,10 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/syhily
-  Twitter: https://twitter.com/syhily
-  Facebook: https://www.facebook.com/syhily
-  Weibo: https://weibo.com/outofregister
+  GitHub: https://github.com/yourcaptain
+#  Twitter: https://twitter.com/
+#  Facebook: https://www.facebook.com/
+#  Weibo: https://weibo.com/outofregister
   #LinkLabel: Link
 
 
@@ -292,7 +292,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -599,7 +599,7 @@ images: images
 links_title: 友情链接
 links:
   Blessing Studio: https://blessing.studio/
-  咚门: http://www.dearzd.com
+  雨帆: https://yufan.me
 
 # Theme version
 version: 5.1.1
