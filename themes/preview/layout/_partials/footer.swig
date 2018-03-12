@@ -21,3 +21,4 @@
 </div>
 {% endif %}
 <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+<p><img src="http://www.yesdata.net/tigercat/algolia-powered-by.svg" alt="Algolia powered by"></p>
