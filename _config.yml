@@ -89,7 +89,7 @@ algolia:
   applicationID: 'NTCEIYZ7QJ'
   apiKey: '74c099b4903cad3acbc03a908da2927e'
   adminApiKey: ''
-  indexName: 'YESDATA'
+  indexName: 'myposts'
   chunkSize: 5000
 
 # Number of index
