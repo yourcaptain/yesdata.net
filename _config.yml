@@ -75,6 +75,61 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: preview
 
+
+# Feed
+feed:
+  type: rss2
+  path: rss.xml
+  limit: 0
+  hub:
+  content: true
+
+# Search
+algolia:
+  applicationID: 'NTCEIYZ7QJ'
+  apiKey: '74c099b4903cad3acbc03a908da2927e'
+  adminApiKey: ''
+  indexName: 'YESDATA'
+  chunkSize: 5000
+
+# Number of index
+category_generator:
+  per_page: 15
+
+archive_generator:
+  per_page: 300
+  yearly: true
+  monthly: true
+  daily: false
+
+tag_generator:
+  per_page: 15
+
+# Minify the generated file
+hfc_useref:
+  enable: false
+
+hfc_html:
+  enable: false
+
+hfc_css:
+  enable: false
+
+hfc_js:
+  enable: false
+
+hfc_img:
+  enable: false
+
+hfc_favicons:
+  enable: false
+
+# No SEO Link
+nofollow:
+  enable: true
+#  exclude:
+#    - exclude1.com
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 #deploy:
