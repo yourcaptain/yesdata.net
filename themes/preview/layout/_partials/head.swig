@@ -122,3 +122,14 @@
 {% endif %}
 
 {% include 'head/custom-head.swig' %}
+
+<!--baidu tongji-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c575ef74090da28a3388c0af8731c922";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
