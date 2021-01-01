@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 数据价值
-subtitle: 计算机让生活更美好
-description: 大型分布式系统设计师、项目管理专家
+title: 信息技术应用博客
+subtitle: 科技创造美好生活
+description: 企业架构、项目管理专家
 author: 执着的慢行者
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -40,10 +40,21 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false #hexo-theme-bamboo主题采用hexo-prism-plugin做代码高亮，所以将这儿改为false
   line_number: true
   auto_detect: true
   tab_replace: true
+
+#hexo-theme-bamboo主题采用的是hexo-prism-plugin这个Hexo插件来做代码高亮
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'    # 这里可以选择不同样式的主题
+  line_number: false    # default false
+  custom_css:
+#hexo-theme-bamboo主题中还使用到了 hexo-generator-search 的 Hexo 插件来做内容搜索
+search:
+  path: search.xml
+  field: post
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -74,7 +85,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: preview
+theme: hexo-theme-bamboo
 
 
 # Feed
