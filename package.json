@@ -12,6 +12,7 @@
     "hexo-autonofollow": "^1.0.1",
     "hexo-deployer-ftpsync": "^0.1.1",
     "hexo-deployer-git": "^0.3.1",
+    "hexo-deployer-sftp": "^0.4.1",
     "hexo-filter-auto-spacing": "^0.2.1",
     "hexo-filter-cleanup": "^1.0.7",
     "hexo-generator-archive": "^0.1.5",

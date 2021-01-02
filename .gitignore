@@ -5,6 +5,8 @@ db.json
 node_modules/
 public/
 .deploy*/
+_sftp_config.yml
+_multiconfig.yml
 
 public
 .idea
