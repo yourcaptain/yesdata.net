@@ -149,3 +149,29 @@ nofollow:
 #    repo: https://${GH_USER_EMAIL}:${GH_USER_PWD}@git.coding.net/yourcaptain/yesdata.net.git
 #    branch: master
 #    message: Site updated {{ now('YYYY-MM-DD HH:mm:ss') }}
+
+#https://github.com/alexbruno/hexo-generator-json-content
+jsonContent:
+  meta: false
+  drafts: false
+  file: blogs.json
+  keywords: undefined
+  dateFormat: YYYY-MM-DD
+  pages: false
+  posts:
+    title: true
+    slug: false
+    date: true
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: true
+    excerpt: false
+    keywords: false
+    text: false
+    raw: false
+    content: false
+    author: false
+    categories: false
+    tags: false
