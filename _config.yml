@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yesdata.net
+url: https://www.yesdata.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults: :year/:month/:day/:title/
@@ -171,7 +171,7 @@ jsonContent:
     keywords: false
     text: false
     raw: false
-    content: false
+    content: true
     author: false
     categories: false
     tags: false
